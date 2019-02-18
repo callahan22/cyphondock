@@ -97,7 +97,7 @@ Configure Virtual Memory
 ************************
 
 This project uses the official `Elasticsearch docker repository <https://hub.docker.com/_/elasticsearch/>`__. These images require a Linux host to 
-allow a process to have at least 262,144 memory-mapped areas (see `Elasticsearch's documentation <https://www.elastic.co/guide/en/elasticsearch/reference/current/_maximum_map_count_check.html/>`__ for more info). 
+allow a process to have at least 262,144 memory-mapped areas (see `Elasticsearch's documentation <https://www.elastic.co/guide/en/elasticsearch/reference/current/_maximum_map_count_check.html>`__ for more info). 
 
 To increase the memory map count::
 
