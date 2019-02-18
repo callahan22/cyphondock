@@ -100,7 +100,7 @@ Cyclops is configured with the ``conf.py`` file in the Cyphon settings::
 The only thing to change in these settings is ``MAPBOX_ACCESS_TOKEN``.
 This is required to show maps with locations and to get geolocation data.
 You can sign up for an access token
-`here <https://www.mapbox.com/studio/signup/>`__.
+`here <https://account.mapbox.com/auth/signup/>`__.
 
 The next optional step would be to set up push notifications for Cyclops,
 which is explained in `Cyphon's documentation <http://cyphon.readthedocs.io/en/latest/user-manual/push-notifications.html#push-notifications>`__.
