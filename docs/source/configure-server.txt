@@ -183,7 +183,7 @@ You can use the following bash script to auto install the project on an Ubuntu 1
     sudo docker exec -it cyphondock_cyphon_1 sh -c "python manage.py loaddata ./fixtures/starter-fixtures.json"
 
     echo "Create a user account for Cyphon"
-    echo "sudo docker exec -it cyphondock_cyphon_1 sh -c "python manage.py createsuperuser""
+    echo "sudo docker exec -it cyphondock_cyphon_1 sh -c \"python manage.py createsuperuser\""
 
     echo "Note: To get Twitter working, don't forget to enable the reservoir!"
     echo "Note: You will need to add the index pattern on http://ip_addr:5601/ (cyphon-*)"
